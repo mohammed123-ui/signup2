@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center ENG4FUN</title>
+</head>
+<body>
+
+    <div class="main-card">
+        <header class="header">
+            <h1 class="logo">Center <span class="highlight">ENG4FUN</span></h1>
+            
+            <div class="contact-box">
+                <span class="contact-title">Contact Us</span>
+                <div class="social-links">
+                    <a href="https://wa.me/201063642259?text=السلام%20عليكم%20ورحمة%20الله%20وبركاته%20كيف%20حالك%20استاذه%20فاطمه" target="_blank" class="btn-link whatsapp">
+                        WhatsApp
+                    </a>
+                    <a href="mailto:mohammedhassanaf@gmail.com" target="_blank" class="btn-link email">
+                        Email
+                    </a>
+                </div>
+            </div>
+            <link rel="stylesheet" href="css/login.css">
+        </header>
+
+        <hr class="divider">
+
+        <article class="form-container">
+            <h2 class="form-title">Sign Up</h2>
+
+            <form class="signup-form">
+                <div class="form-group"> 
+                    <label for="name">Full Name</label>
+                    <input id="name" type="text" name="name" placeholder="Enter your full name..." required>
+                </div>
+
+                <div class="form-group"> 
+                    <label for="phone">Phone Number</label>
+                    <input id="phone" type="tel" name="phone" placeholder="01XXXXXXXXX" minlength="11" maxlength="11" required>
+                </div>
+
+                <div class="form-group"> 
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="password" minlength="5" maxlength="10" placeholder="••••••••" required>
+                </div>
+
+                <div class="form-group"> 
+                    <label for="mail">Email Address</label>
+                    <input id="mail" type="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+
+                <div class="form-group"> 
+                    <label for="school-age">School Stage</label>
+                    <select name="school_age" id="school-age">
+                        <optgroup label="Secondary School">
+                            <option value="1st_sec">1st Secondary</option>
+                            <option value="2nd_sec">2nd Secondary</option>
+                            <option value="3rd_sec">3rd Secondary</option>
+                        </optgroup>
+                        <optgroup label="Preparatory School">
+                            <option value="1st_prep">1st Preparatory</option>
+                            <option value="2nd_prep">2nd Preparatory</option>
+                            <option value="3rd_prep">3rd Preparatory</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="address-input">Address</label>
+                    <input id="address-input" list="Address" placeholder="Select or type address...">
+                    <datalist id="Address">
+                        <option value="الحامول">
+                        <option value="كفر شبرا بلوله">
+                        <option value="شبرا بلوله">
+                        <option value="العامره">
+                        <option value="كفر العامره">
+                        <option value="شنوفه">
+                        <option value="كفر شنوفه">
+                    </datalist>
+                </div>
+
+                <div class="form-group"> 
+                    <label for="date">Birth Date</label>
+                    <input id="date" type="date" name="date">
+                </div>
+
+                <div class="form-group">
+                    <label for="level">Your Level Score (10 - 100)</label>
+                    <input id="level" type="number" name="level" min="10" max="100" step="20" placeholder="e.g. 80">
+                </div>
+                 
+                <div class="button-group">
+                    <button type="reset" class="btn btn-secondary">Reset</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </article>
+    </div>
+
+</body>
+</html>
